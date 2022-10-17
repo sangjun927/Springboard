@@ -3,14 +3,27 @@ Telco company provides services such as phone, internet, online security, device
 
 ## Data Wraggling
 1. Read 'Telco_customer_churn.xlsx'
-2. Find missing value
-3. Deleting feature
-4. Confirm datatype
+2. Find Missing Value
+3. Deleting Features
+4. Confirm Datatype
 5. Check Outliers
 9. Save Data
 
 ## EDA 
-## Preprocessing
-## Modeling
+1. Data Load
+2. Explore Data
+3. Inferential Statistics
+4. Data Visualization
 
-this is example file of README md.
+## Preprocessing
+1. Data Load
+2. Dummy Variables
+3. Scale Data
+4. Concatenate Dataframes
+5. Split Train and Test Data
+
+## Modeling
+1. Data Load
+2. Check Data Imbalance
+3. Choose Model
+4. Optimization
