@@ -1,0 +1,11 @@
+Model Evaluation:
+Random forest shows the best accuracy rate among four different models (Logistics Regression, Random Forest, Gradient Boosting, and Light GBM). Accuracy rate is 0.951 with 0.007 standard deviation. Model has been cross-validated with k-fold method, therefore the model is not overfitting. 
+
+Model Optimization:
+One of the disadvantages of random forest is that it could be slow when it comes to a large number of trees. I initially tried GridSearch optimization but it was too slow. Therefore, I used Bayesian Optimization. I tried to adjust three set of hyperparameters: max_feature, max_samples, and n_estimator. Below is the result of tuning.
+
+Best Target Value: 0.9520516366989396
+
+Hyperparameter #1 - max_feature: 0.5080833945225312
+Hyperparameter #2 - max_samples: 0.9788650855858045
+Hyperparameter #3 - n_estimator: 228.29994742665698
