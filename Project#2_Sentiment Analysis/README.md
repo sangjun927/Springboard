@@ -1,7 +1,7 @@
 # IMDB Sentiment Analysis
-Dataset 'IMDB_Dataset' includes features 'Reviews' (Independent variable) and 'Sentiment' (Dependent Variable). Build and optimize machine learning models which classify sentiment values 'Positive' or 'Negative' by analyzing texts from columns 'Reviews'. Try out different techniques such as CountVectorizor, TF-IDF, Word Embedding and BERT to properly classify text.
+Dataset 'IMDB_Dataset' includes features 'Reviews' (Independent variable) and 'Sentiment' (Dependent Variable). Build and optimize machine learning models which classify sentiment values 'Positive' or 'Negative' by analyzing texts from columns 'Reviews'. Try out different techniques such as CountVectorizer, TF-IDF, Word Embedding and BERT to properly classify text.
 
-## Train models and word frequency Analysis
+## CountVectorizer, TFIDF, and word frequency Analysis
 1. Data load
 2. Subset dataset to efficiently train the model
 3. Define functions and Lists to train and test model
