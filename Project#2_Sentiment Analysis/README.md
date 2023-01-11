@@ -1,29 +1,19 @@
-# Telco Customer Churn
-Telco company provides services such as phone, internet, online security, device protection, and streaming TV. After the third quarter settlement, company’s churn rate has been increased about 15%. So, company wants to reduce the churn late at least 10% at the end of this year. The current churn rate is about 27%. Our target is making churn rate below 17%. Company wants to know the main factors which affect the increasing of churn rate and eliminate the causation of painpoints. 
+# IMDB Sentiment Analysis
+Dataset 'IMDB_Dataset' includes features 'Reviews' (Independent variable) and 'Sentiment' (Dependent Variable). Build and optimize machine learning models which classify sentiment values 'Positive' or 'Negative' by analyzing texts from columns 'Reviews'. Try out different techniques such as CountVectorizor, TF-IDF, Word Embedding and BERT to properly classify text.
 
-## Data Wraggling
-1. Read 'Telco_customer_churn.xlsx'
-2. Find Missing Value
-3. Deleting Features
-4. Confirm Datatype
-5. Check Outliers
-9. Save Data
+## Train models and word frequency Analysis
+1. Data load
+2. Subset dataset to efficiently train the model
+3. Define functions and Lists to train and test model
+4. Metric output before cleaning text data
+5. Metric output after cleaning text data
+6. Frequency analysis
 
-## EDA 
-1. Data Load
-2. Explore Data
-3. Inferential Statistics
-4. Data Visualization
-
-## Preprocessing
-1. Data Load
-2. Dummy Variables
-3. Scale Data
-4. Concatenate Dataframes
-5. Split Train and Test Data
-
-## Modeling
-1. Data Load
-2. Check Data Imbalance
-3. Choose Model
-4. Optimization
+## BERT
+1. Data load
+2. TPU configuration
+3. Clean and split dataset
+4. Encoding
+5. Tokenization
+6. Build and train model
+7. Validate the model
