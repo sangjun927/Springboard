@@ -1,0 +1,9 @@
+Model Evaluation:
+Logistic Regression shows the best F1 score among four different models (Logistics Regression, Random Forest, Gradient Boosting, and Light GBM). F1 score is 0.8847 with 0.377 log loss. This model proceeded without cleaning dataset and used TF-IDF technique.
+
+Model Optimization:
+Since there was no big difference after hyper parameter tuning. I ran BERT pre-trained technique to improve F1 score.
+
+Best F1 Score: 0.9495 with log loss 0.0871 
+Best Accuracy Score: 0.9692 with log loss 0.0851
+Best Recall Score: 0.9166 with log loss 0.1604 
